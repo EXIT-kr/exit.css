@@ -35,6 +35,21 @@ body{
   font-family: 'Raleway', sans-serif;
 }
 
+
+/* Text
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.text-center{
+  text-align: center;
+}
+.text-right{
+  text-align: right;
+}
+.text-left{
+  text-align: left;
+}
+
+
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .exit-button,
@@ -74,3 +89,25 @@ input[type="button"]:focus {
   color: #333;
   border-color: #888;
   outline: 0; }
+
+
+.exit-card{
+  border-radius: 4px;
+}
+
+
+/* alert
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.alert{
+  border-radius: 4px;
+  padding: .75rem 1.25rem
+}
+.alert.alert-success{
+  background: #dff0d8;
+  color: #3c763d;
+}
+
+.alert.alert-info{
+  background: #d9edf7;
+  color: #31708f;
+}
