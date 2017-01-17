@@ -1,5 +1,5 @@
 <p style="text-align:center">
-  ![exit logo](https://github.com/EXIT-kr/exit.css/img/logo.png);
+  ![exit logo](./img/logo.png);
 </p>
 
 # exit.css
