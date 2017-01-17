@@ -127,27 +127,27 @@ input[type="button"]:focus {
 /* Border
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-.border-circle{
+.circle{
   border-radius: 100%;
 }
 
-.border-rounded{
+.rounded{
   border-radius: .25rem;
 }
 
-.border-rounded-top{
+.rounded-top{
   border-radius: .25rem .25rem 0 0;
 }
 
-.border-rounded-bottom{
+.rounded-bottom{
   border-radius: 0 0 .25rem .25rem;
 }
 
-.border-rounded-right{
+.rounded-right{
   border-radius: 0 .25rem .25rem 0;
 }
 
-.border-rounded-left{
+.rounded-left{
   border-radius: .25rem 0 0 .25rem;
 }
 
@@ -179,15 +179,33 @@ input[type="button"]:focus {
 /* Thumbnail
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-.thumbnail-default{
+.thumbnail-img{
   padding: .25rem;
   background-color: #fff;
   border: 1px solid #ddd;
 }
 
-.thumbnail-rounded{
-  padding: .25rem;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: .25rem;
+
+/* Size
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.size-x{
+  width: 32px;
+  height: 32px;
+}
+.size-2x{
+  width: 64px;
+  height: 64px;
+}
+.size-3x{
+  width: 128px;
+  height: 128px;
+}
+.size-4x{
+  width: 256px;
+  height: 256px;
+}
+.size-5x{
+  width: 512px;
+  height: 512px;
 }
