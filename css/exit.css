@@ -121,3 +121,55 @@ input[type="button"]:focus {
   background: #f2dede;
   color: #a94442;
 }
+
+
+/* Border
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.border-circle{
+  border-radius: 100%;
+}
+
+.border-rounded{
+  border-radius: .25rem;
+}
+
+.border-rounded-top{
+  border-radius: .25rem .25rem 0 0;
+}
+
+.border-rounded-bottom{
+  border-radius: 0 0 .25rem .25rem;
+}
+
+.border-rounded-right{
+  border-radius: 0 .25rem .25rem 0;
+}
+
+.border-rounded-left{
+  border-radius: .25rem 0 0 .25rem;
+}
+
+
+/* Float
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.pull-left{
+  float: left;
+}
+
+.pull-right{
+  float: right;
+}
+
+.clearfix{
+  clear: both;
+}
+
+
+/* Hide
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.hide{
+  display: none;
+}
