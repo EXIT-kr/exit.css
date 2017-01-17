@@ -98,6 +98,7 @@ input[type="button"]:focus {
 
 /* alert
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 .alert{
   border-radius: 4px;
   padding: .75rem 1.25rem
@@ -172,4 +173,21 @@ input[type="button"]:focus {
 
 .hide{
   display: none;
+}
+
+
+/* Thumbnail
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.thumbnail-default{
+  padding: .25rem;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.thumbnail-rounded{
+  padding: .25rem;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: .25rem;
 }
