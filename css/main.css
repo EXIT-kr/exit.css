@@ -2,7 +2,7 @@ body{
   background: #fafafb;
 }
 
-#main-logo{
+.main-logo{
   width: 256px;
   height: 256px;
 }
