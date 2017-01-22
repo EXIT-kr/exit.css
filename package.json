@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "python -m SimpleHTTPServer",
-    "scss-compile": "node-sass -rw ./ -o ./convert.css"
+    "scss-compile": "sass --watch ./scss/exit.scss:./css/exit.css"
   },
   "repository": {
     "type": "git",
