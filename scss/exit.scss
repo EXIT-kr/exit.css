@@ -32,13 +32,45 @@
 
 $main-color : #314570;
 
+
+
 body{
   font-family: 'Raleway', sans-serif;
 }
+
 .container{
   width: 80%;
   margin: auto;
 }
+blockquote {
+
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  border-left: 0.5rem solid #eceeef;
+
+  &.blockquote-reverse {
+    padding-right: 1rem;
+    padding-left: 0;
+    text-align: right;
+    border-right: 0.5rem solid #eceeef;
+    border-left: 0;
+  }
+
+  footer {
+    display: block;
+    font-size: 80%;
+    color: #636c72;
+
+    &::before{
+      content: "\2014 \00A0";
+    }
+  }
+
+
+}
+
+
 
 
 /* Text
@@ -52,6 +84,18 @@ body{
 }
 .text-left{
   text-align: left;
+}
+
+.text-lowercase {
+  text-transform: lowercase !important;
+}
+
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+
+.text-capitalize {
+  text-transform: capitalize !important;
 }
 
 code,
