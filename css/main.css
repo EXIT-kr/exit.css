@@ -15,6 +15,9 @@ body{
   color: #314570;
 }
 
+.color-box{
+  width: 150px;
+}
 .color-box > .box-top{
   color: white;
 }
