@@ -16,8 +16,9 @@ body{
 }
 
 .color-box{
-  width: 150px;
+  width: 200px;
 }
+
 .color-box > .box-top{
   color: white;
 }
