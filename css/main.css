@@ -15,6 +15,10 @@ body{
   color: #314570;
 }
 
+.color-box > .box-top{
+  color: white;
+}
+
 footer{
   display: block;
   color: #99979c;
