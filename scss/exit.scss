@@ -222,7 +222,7 @@ small{
 
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.exit-button,
+.exit-btn,
 button,
 input[type="submit"],
 input[type="reset"],
@@ -244,9 +244,35 @@ input[type="button"]{
   border: 1px solid #bbb;
   cursor: pointer;
   box-sizing: border-box;
+
+  &.btn-primary{
+    color: white;
+    background: $color-main;
+  }
+
+  &.btn-success{
+    color: white;
+    background: $color-grass-green;
+  }
+
+  &.btn-info{
+    color: white;
+    background: $color-aqua;
+  }
+
+  &.btn-warning{
+    color: white;
+    background: $color-sun-flower;
+  }
+
+  &.btn-danger{
+    color: white;
+    background: $color-grapfruit;
+  }
+
 }
 
-.exit-button:hover,
+.exit-btn:hover,
 button:hover,
 input[type="submit"]:hover,
 input[type="reset"]:hover,
@@ -258,7 +284,8 @@ input[type="reset"]:focus,
 input[type="button"]:focus {
   color: #333;
   border-color: #888;
-  outline: 0; }
+  outline: 0;
+}
 
 
 .exit-card{

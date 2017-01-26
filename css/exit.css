@@ -147,7 +147,7 @@ small {
 
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.exit-button,
+.exit-btn,
 button,
 input[type="submit"],
 input[type="reset"],
@@ -169,8 +169,43 @@ input[type="button"] {
   border: 1px solid #bbb;
   cursor: pointer;
   box-sizing: border-box; }
+  .exit-btn.btn-primary,
+  button.btn-primary,
+  input[type="submit"].btn-primary,
+  input[type="reset"].btn-primary,
+  input[type="button"].btn-primary {
+    color: white;
+    background: #314570; }
+  .exit-btn.btn-success,
+  button.btn-success,
+  input[type="submit"].btn-success,
+  input[type="reset"].btn-success,
+  input[type="button"].btn-success {
+    color: white;
+    background: #8CC152; }
+  .exit-btn.btn-info,
+  button.btn-info,
+  input[type="submit"].btn-info,
+  input[type="reset"].btn-info,
+  input[type="button"].btn-info {
+    color: white;
+    background: #4FC1E9; }
+  .exit-btn.btn-warning,
+  button.btn-warning,
+  input[type="submit"].btn-warning,
+  input[type="reset"].btn-warning,
+  input[type="button"].btn-warning {
+    color: white;
+    background: #FFCE54; }
+  .exit-btn.btn-danger,
+  button.btn-danger,
+  input[type="submit"].btn-danger,
+  input[type="reset"].btn-danger,
+  input[type="button"].btn-danger {
+    color: white;
+    background: #ED5565; }
 
-.exit-button:hover,
+.exit-btn:hover,
 button:hover,
 input[type="submit"]:hover,
 input[type="reset"]:hover,
