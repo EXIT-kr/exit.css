@@ -32,6 +32,10 @@ body {
     > .box-top {
         color: white;
     }
+    > .box-bottom{
+      background: white;
+      padding: 0.5rem;
+    }
 }
 
 .grid-system {
@@ -41,6 +45,13 @@ body {
         text-align: center;
         background: $color-main-light;
     }
+}
+
+.color-set{
+
+  .box-divided{
+    display: inline-block;
+  }
 }
 
 footer {

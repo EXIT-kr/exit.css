@@ -35,12 +35,18 @@ body {
   width: 200px; }
   .color-box > .box-top {
     color: white; }
+  .color-box > .box-bottom {
+    background: white;
+    padding: 0.5rem; }
 
 .grid-system .columns {
   margin-bottom: 5px;
   border-radius: 4px;
   text-align: center;
   background: #F3F5F7; }
+
+.color-set .box-divided {
+  display: inline-block; }
 
 footer {
   display: block;
