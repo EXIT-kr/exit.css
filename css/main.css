@@ -1,36 +1,37 @@
-*{
-  margin: 0 auto;
-}
-body{
-  background: white;
-}
+@charset "UTF-8";
+/* Color Sets
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+* {
+  margin: 0 auto; }
 
-.main-logo{
+body {
+  background: white; }
+
+.main-logo {
   width: 256px;
-  height: 256px;
-}
+  height: 256px; }
 
-.dev-icons{
+.dev-icons {
   font-size: 84px;
-  color: #314570;
-}
+  color: #314570; }
 
-.color-box{
-  width: 200px;
-}
+.color-box {
+  width: 200px; }
 
-.color-box > .box-top{
-  color: white;
-}
+.color-box > .box-top {
+  color: white; }
 
-footer{
+.grid-system .columns {
+  background: #AC92EC; }
+
+footer {
   display: block;
   color: #99979c;
   background: #2a2730;
-  padding: 50px;
-}
+  padding: 50px; }
 
-footer > .container{
+footer > .container {
   display: inline-block;
-  margin: auto;
-}
+  margin: auto; }
+
+/*# sourceMappingURL=main.css.map */

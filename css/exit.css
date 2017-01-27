@@ -54,6 +54,66 @@ blockquote {
   width: 80%;
   margin: auto; }
 
+/* Gird
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.column,
+.columns {
+  margin: 0; }
+
+.column:last-child,
+.columns:last-child {
+  margin-right: 0; }
+
+.column,
+.columns {
+  display: inline-block; }
+
+.one.column,
+.one.columns {
+  width: 8%; }
+
+.two.columns {
+  width: 16.666666667%; }
+
+.three.columns {
+  width: 25%; }
+
+.four.columns {
+  width: 33.333333333%; }
+
+.five.columns {
+  width: 41.666666667%; }
+
+.six.columns {
+  width: 50%; }
+
+.seven.columns {
+  width: 58.333333333%; }
+
+.eight.columns {
+  width: 66.666666667%; }
+
+.nine.columns {
+  width: 75%; }
+
+.ten.columns {
+  width: 83.333333333%; }
+
+.eleven.columns {
+  width: 91%; }
+
+.twelve.columns {
+  width: 100%; }
+
+.one-third.column {
+  width: 30.6666666667%; }
+
+.two-thirds.column {
+  width: 65.3333333333%; }
+
+.one-half.column {
+  width: 48%; }
+
 /* Box
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .box {
