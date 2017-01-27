@@ -1,70 +1,383 @@
+@charset "UTF-8";
 /*
-Error: Undefined variable: "$color-dark-gray".
-        on line 37 of ./scss/exit.scss
-
-32: 
-33: $main-shadow : 0 1px 2px rgba(0,0,0,.2);
-34: 
-35: body{
-36:   font-family: 'Open Sans', sans-serif;
-37:   color: $color-dark-gray;
-38: }
-39: 
-40: blockquote {
-41: 
-42:   padding: 0.5rem 1rem;
-
-Backtrace:
-./scss/exit.scss:37
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/script/tree/variable.rb:49:in `_perform'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/script/tree/node.rb:58:in `perform'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `with_base'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `map'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `with_base'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `map'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:159:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:8:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/root_node.rb:36:in `css_tree'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/engine.rb:381:in `_render_with_sourcemap'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/engine.rb:298:in `render_with_sourcemap'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `each'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:331:in `block in watch'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:252:in `call'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+* EXIT
+* Copyright 2017, EXIT
+* exit-kr.github.io
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 2017.01
 */
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Undefined variable: \"$color-dark-gray\".\A         on line 37 of ./scss/exit.scss\A \A 32: \A 33: $main-shadow : 0 1px 2px rgba(0,0,0,.2);\A 34: \A 35: body{\A 36:   font-family: 'Open Sans', sans-serif;\A 37:   color: $color-dark-gray;\A 38: }\A 39: \A 40: blockquote {\A 41: \A 42:   padding: 0.5rem 1rem;"; }
+/* fonts.google.com Raleway font*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600");
+/*
+* EXIT
+* Copyright 2017, EXIT
+* exit-kr.github.io
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 2017.01
+*/
+/* Color Sets
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+- Grid
+- Base Styles
+- Typography
+- Links
+- Buttons
+- Forms
+- Lists
+- Code
+- Tables
+- Spacing
+- Utilities
+- Clearing
+- Media Queries
+*/
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #434A54; }
+
+blockquote {
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  border-left: 0.5rem solid #eceeef;
+  color: #314570; }
+  blockquote.blockquote-reverse {
+    padding-right: 1rem;
+    padding-left: 0;
+    text-align: right;
+    border-right: 0.5rem solid #eceeef;
+    border-left: 0; }
+  blockquote .blockquote-footer {
+    display: block;
+    font-size: 80%;
+    color: #7786A6; }
+    blockquote .blockquote-footer::before {
+      content: "\2014 \00A0"; }
+
+.container {
+  width: 80%;
+  margin: auto; }
+
+/* Gird
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.column,
+.columns {
+  margin: 0; }
+
+.column:last-child,
+.columns:last-child {
+  margin-right: 0; }
+
+.column,
+.columns {
+  display: inline-block; }
+
+.one.column,
+.one.columns {
+  width: 8%; }
+
+.two.columns {
+  width: 16.666666667%; }
+
+.three.columns {
+  width: 25%; }
+
+.four.columns {
+  width: 33.333333333%; }
+
+.five.columns {
+  width: 41.666666667%; }
+
+.six.columns {
+  width: 50%; }
+
+.seven.columns {
+  width: 58.333333333%; }
+
+.eight.columns {
+  width: 66.666666667%; }
+
+.nine.columns {
+  width: 75%; }
+
+.ten.columns {
+  width: 83.333333333%; }
+
+.eleven.columns {
+  width: 91%; }
+
+.twelve.columns {
+  width: 100%; }
+
+.one-third.column {
+  width: 30.6666666667%; }
+
+.two-thirds.column {
+  width: 65.3333333333%; }
+
+.one-half.column {
+  width: 48%; }
+
+/* Box
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.box {
+  border: 1px solid #E1E1E1;
+  border-radius: 4px;
+  background: #F3F5F7;
+  font-size: 1.2rem;
+  padding: 2.5rem 3rem; }
+
+.box-divided {
+  display: inline-block; }
+  .box-divided .box-top {
+    padding: 10px;
+    border-radius: .25rem .25rem 0 0;
+    background: red; }
+  .box-divided .box-bottom {
+    padding: 10px;
+    border-radius: 0 0 .25rem .25rem;
+    background: white;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); }
+
+/* Text
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.text-center {
+  text-align: center; }
+
+.text-right {
+  text-align: right; }
+
+.text-left {
+  text-align: left; }
+
+.text-lowercase {
+  text-transform: lowercase !important; }
+
+.text-uppercase {
+  text-transform: uppercase !important; }
+
+.text-capitalize {
+  text-transform: capitalize !important; }
+
+code,
+kbd,
+pre,
+samp {
+  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+
+code {
+  padding: .2rem .5rem;
+  margin: 0 .2rem;
+  font-size: 90%;
+  white-space: nowrap;
+  color: #bd4147;
+  background: #f7f7f9;
+  border: 1px solid #E1E1E1;
+  border-radius: 4px; }
+
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  font-weight: 600;
+  color: #314570; }
+  h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+    margin-left: 10px;
+    font-size: 65%;
+    color: #AAB2BD; }
+
+h1, .h1 {
+  font-size: 2.5rem; }
+
+h2, .h2 {
+  font-size: 2rem; }
+
+h3, .h3 {
+  font-size: 1.75rem; }
+
+h4, .h4 {
+  font-size: 1.5rem; }
+
+h5, .h5 {
+  font-size: 1.25rem; }
+
+h6, .h6 {
+  font-size: 1rem; }
+
+p {
+  margin-top: 0;
+  margin-bottom: 0.5rem; }
+
+small {
+  font-size: 80%; }
+
+/* Buttons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.exit-btn,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  color: #555;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  box-sizing: border-box; }
+  .exit-btn.btn-primary,
+  button.btn-primary,
+  input[type="submit"].btn-primary,
+  input[type="reset"].btn-primary,
+  input[type="button"].btn-primary {
+    color: white;
+    background: #314570; }
+  .exit-btn.btn-success,
+  button.btn-success,
+  input[type="submit"].btn-success,
+  input[type="reset"].btn-success,
+  input[type="button"].btn-success {
+    color: #17622E;
+    background: #7AB48C; }
+  .exit-btn.btn-info,
+  button.btn-info,
+  input[type="submit"].btn-info,
+  input[type="reset"].btn-info,
+  input[type="button"].btn-info {
+    color: #31708f;
+    background: #d9edf7; }
+  .exit-btn.btn-warning,
+  button.btn-warning,
+  input[type="submit"].btn-warning,
+  input[type="reset"].btn-warning,
+  input[type="button"].btn-warning {
+    color: #ABA320;
+    background: #FFFA94; }
+  .exit-btn.btn-danger,
+  button.btn-danger,
+  input[type="submit"].btn-danger,
+  input[type="reset"].btn-danger,
+  input[type="button"].btn-danger {
+    color: #831F22;
+    background: #F3A4A6; }
+
+.exit-btn:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+  color: #333;
+  border-color: #888;
+  outline: 0; }
+
+.exit-card {
+  border-radius: 4px; }
+
+/* alert
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.alert {
+  border-radius: 4px;
+  padding: 0.75rem 1.25rem; }
+
+.alert.alert-success {
+  background: #7AB48C;
+  color: #17622E; }
+
+.alert.alert-info {
+  background: #d9edf7;
+  color: #31708f; }
+
+.alert.alert-warning {
+  background: #FFFA94;
+  color: #ABA320; }
+
+.alert.alert-danger {
+  background: #F3A4A6;
+  color: #831F22; }
+
+/* Border
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.circle {
+  border-radius: 100%; }
+
+.rounded {
+  border-radius: .25rem; }
+
+.rounded-top {
+  border-radius: .25rem .25rem 0 0; }
+
+.rounded-bottom {
+  border-radius: 0 0 .25rem .25rem; }
+
+.rounded-right {
+  border-radius: 0 .25rem .25rem 0; }
+
+.rounded-left {
+  border-radius: .25rem 0 0 .25rem; }
+
+/* Float
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.pull-left {
+  float: left; }
+
+.pull-right {
+  float: right; }
+
+.clearfix {
+  clear: both; }
+
+/* Hide
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.hide {
+  display: none; }
+
+/* Thumbnail
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.thumbnail-img {
+  padding: .25rem;
+  background-color: #fff;
+  border: 1px solid #ddd; }
+
+/* Size
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.size-x {
+  width: 32px;
+  height: 32px; }
+
+.size-2x {
+  width: 64px;
+  height: 64px; }
+
+.size-3x {
+  width: 128px;
+  height: 128px; }
+
+.size-4x {
+  width: 256px;
+  height: 256px; }
+
+.size-5x {
+  width: 512px;
+  height: 512px; }
+
+/*# sourceMappingURL=exit.css.map */
