@@ -81,7 +81,7 @@ blockquote {
   width: 8%; }
 
 .two.columns {
-  width: 16.666666667%; }
+  width: 16%; }
 
 .three.columns {
   width: 25%; }
@@ -105,7 +105,7 @@ blockquote {
   width: 75%; }
 
 .ten.columns {
-  width: 83.333333333%; }
+  width: 83%; }
 
 .eleven.columns {
   width: 91%; }
@@ -135,11 +135,11 @@ blockquote {
   display: inline-block; }
   .box-divided .box-top {
     padding: 10px;
-    border-radius: .25rem .25rem 0 0;
+    border-radius: 0.25rem 0.25rem 0 0;
     background: red; }
   .box-divided .box-bottom {
     padding: 10px;
-    border-radius: 0 0 .25rem .25rem;
+    border-radius: 0 0 0.25rem 0.25rem;
     background: white;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); }
 
@@ -170,8 +170,8 @@ samp {
   font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 
 code {
-  padding: .2rem .5rem;
-  margin: 0 .2rem;
+  padding: 0.2rem 0.5rem;
+  margin: 0 0.2rem;
   font-size: 90%;
   white-space: nowrap;
   color: #bd4147;
@@ -181,32 +181,48 @@ code {
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-h1, h2, h3, h4, h5, h6 {
-  margin-top: .5rem;
-  margin-bottom: .5rem;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
   font-weight: 600;
   color: #314570; }
-  h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+  h1 small,
+  h2 small,
+  h3 small,
+  h4 small,
+  h5 small,
+  h6 small {
     margin-left: 10px;
     font-size: 65%;
     color: #AAB2BD; }
 
-h1, .h1 {
+.h1,
+h1 {
   font-size: 2.5rem; }
 
-h2, .h2 {
+.h2,
+h2 {
   font-size: 2rem; }
 
-h3, .h3 {
+.h3,
+h3 {
   font-size: 1.75rem; }
 
-h4, .h4 {
+.h4,
+h4 {
   font-size: 1.5rem; }
 
-h5, .h5 {
+.h5,
+h5 {
   font-size: 1.25rem; }
 
-h6, .h6 {
+.h6,
+h6 {
   font-size: 1rem; }
 
 p {
@@ -220,9 +236,9 @@ small {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .exit-btn,
 button,
-input[type="submit"],
+input[type="button"],
 input[type="reset"],
-input[type="button"] {
+input[type="submit"] {
   display: inline-block;
   height: 38px;
   padding: 0 30px;
@@ -231,7 +247,7 @@ input[type="button"] {
   font-size: 11px;
   font-weight: 600;
   line-height: 38px;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
   text-transform: uppercase;
   text-decoration: none;
   white-space: nowrap;
@@ -242,50 +258,50 @@ input[type="button"] {
   box-sizing: border-box; }
   .exit-btn.btn-primary,
   button.btn-primary,
-  input[type="submit"].btn-primary,
+  input[type="button"].btn-primary,
   input[type="reset"].btn-primary,
-  input[type="button"].btn-primary {
+  input[type="submit"].btn-primary {
     color: white;
     background: #314570; }
   .exit-btn.btn-success,
   button.btn-success,
-  input[type="submit"].btn-success,
+  input[type="button"].btn-success,
   input[type="reset"].btn-success,
-  input[type="button"].btn-success {
+  input[type="submit"].btn-success {
     color: #17622E;
     background: #7AB48C; }
   .exit-btn.btn-info,
   button.btn-info,
-  input[type="submit"].btn-info,
+  input[type="button"].btn-info,
   input[type="reset"].btn-info,
-  input[type="button"].btn-info {
+  input[type="submit"].btn-info {
     color: #31708f;
     background: #d9edf7; }
   .exit-btn.btn-warning,
   button.btn-warning,
-  input[type="submit"].btn-warning,
+  input[type="button"].btn-warning,
   input[type="reset"].btn-warning,
-  input[type="button"].btn-warning {
+  input[type="submit"].btn-warning {
     color: #ABA320;
     background: #FFFA94; }
   .exit-btn.btn-danger,
   button.btn-danger,
-  input[type="submit"].btn-danger,
+  input[type="button"].btn-danger,
   input[type="reset"].btn-danger,
-  input[type="button"].btn-danger {
+  input[type="submit"].btn-danger {
     color: #831F22;
     background: #F3A4A6; }
 
-.exit-btn:hover,
-button:hover,
-input[type="submit"]:hover,
-input[type="reset"]:hover,
-input[type="button"]:hover,
 .button:focus,
+.exit-btn:hover,
 button:focus,
-input[type="submit"]:focus,
+button:hover,
+input[type="button"]:focus,
+input[type="button"]:hover,
 input[type="reset"]:focus,
-input[type="button"]:focus {
+input[type="reset"]:hover,
+input[type="submit"]:focus,
+input[type="submit"]:hover {
   color: #333;
   border-color: #888;
   outline: 0; }
@@ -321,19 +337,19 @@ input[type="button"]:focus {
   border-radius: 100%; }
 
 .rounded {
-  border-radius: .25rem; }
+  border-radius: 0.25rem; }
 
 .rounded-top {
-  border-radius: .25rem .25rem 0 0; }
+  border-radius: 0.25rem 0.25rem 0 0; }
 
 .rounded-bottom {
-  border-radius: 0 0 .25rem .25rem; }
+  border-radius: 0 0 0.25rem 0.25rem; }
 
 .rounded-right {
-  border-radius: 0 .25rem .25rem 0; }
+  border-radius: 0 0.25rem 0.25rem 0; }
 
 .rounded-left {
-  border-radius: .25rem 0 0 .25rem; }
+  border-radius: 0.25rem 0 0 0.25rem; }
 
 /* Float
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -354,7 +370,7 @@ input[type="button"]:focus {
 /* Thumbnail
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .thumbnail-img {
-  padding: .25rem;
+  padding: 0.25rem;
   background-color: #fff;
   border: 1px solid #ddd; }
 

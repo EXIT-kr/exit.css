@@ -33,11 +33,13 @@ body {
 
 .color-box {
   width: 200px; }
-
-.color-box > .box-top {
-  color: white; }
+  .color-box > .box-top {
+    color: white; }
 
 .grid-system .columns {
+  margin-bottom: 5px;
+  border-radius: 4px;
+  text-align: center;
   background: #F3F5F7; }
 
 footer {
