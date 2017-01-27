@@ -34,6 +34,21 @@
 /* Color Sets
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 $color-main: #314570;
+$color-main-light: #F3F5F7;
+
+
+$color-danger: #F3A4A6;
+$color-danger-strong: #831F22;
+
+$color-success: #7AB48C;
+$color-success-strong: #17622E;
+
+$color-warning: #FFFA94;
+$color-warning-strong: #ABA320;
+
+$color-info: #d9edf7;
+$color-info-strong: #31708f;
+
 $color-lapis-blue: #0C4C8A;
 $color-niagara: #5788A1;
 $color-island-paradise: #97D5E0;
@@ -62,6 +77,7 @@ $main-shadow : 0 1px 2px rgba(0,0,0,.2);
 
 body{
   font-family: 'Open Sans', sans-serif;
+  color: $color-dark-gray;
 }
 
 blockquote {
@@ -70,6 +86,7 @@ blockquote {
   margin-bottom: 1rem;
   font-size: 1.25rem;
   border-left: 0.5rem solid #eceeef;
+  color: $color-main;
 
   &.blockquote-reverse {
     padding-right: 1rem;
@@ -82,7 +99,7 @@ blockquote {
   .blockquote-footer {
     display: block;
     font-size: 80%;
-    color: #636c72;
+    color: #7786A6;
 
     &::before{
       content: "\2014 \00A0";
@@ -102,7 +119,7 @@ blockquote {
 .box{
   border: 1px solid #E1E1E1;
   border-radius: 4px;
-  background: #fff;
+  background: $color-main-light;
   font-size: 1.2rem;
   padding: 2.5rem 3rem;
 }
@@ -176,11 +193,12 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: .5rem;
   margin-bottom: .5rem;
   font-weight: 600;
+  color: $color-main;
 
   small{
     margin-left: 10px;
     font-size: 65%;
-    color: #777;
+    color: $color-medium-gray;
   }
 
 }
@@ -251,23 +269,23 @@ input[type="button"]{
   }
 
   &.btn-success{
-    color: white;
-    background: $color-grass-green;
+    color: $color-success-strong;
+    background: $color-success;
   }
 
   &.btn-info{
-    color: white;
-    background: $color-aqua;
+    color: $color-info-strong;
+    background: $color-info;
   }
 
   &.btn-warning{
-    color: white;
-    background: $color-sun-flower;
+    color: $color-warning-strong;
+    background: $color-warning;
   }
 
   &.btn-danger{
-    color: white;
-    background: $color-grapfruit;
+    color: $color-danger-strong;
+    background: $color-danger;
   }
 
 }
@@ -301,8 +319,8 @@ input[type="button"]:focus {
   padding: .75rem 1.25rem
 }
 .alert.alert-success{
-  background: #dff0d8;
-  color: #3c763d;
+  background: $color-success;
+  color: $color-success-strong;
 }
 
 .alert.alert-info{
@@ -311,13 +329,13 @@ input[type="button"]:focus {
 }
 
 .alert.alert-warning{
-  background: #fcf8e3;
-  color: #8a6d3b;
+  background: $color-warning;
+  color: $color-warning-strong;
 }
 
 .alert.alert-danger{
-  background: #f2dede;
-  color: #a94442;
+  background: $color-danger;
+  color: $color-danger-strong;
 }
 
 
