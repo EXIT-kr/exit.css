@@ -72,45 +72,52 @@ blockquote {
 .columns:last-child {
   margin-right: 0; }
 
+.row {
+  width: 100%;
+  display: table;
+  content: ""; }
+
 .column,
 .columns {
-  display: inline-block; }
+  display: inline-block;
+  vertical-align: top;
+  float: left; }
 
-.one.column,
-.one.columns {
-  width: 8%; }
+.col-1.column,
+.col-1.columns {
+  width: 8.3333333338%; }
 
-.two.columns {
-  width: 16%; }
+.col-2.columns {
+  width: 16.666666667%; }
 
-.three.columns {
+.col-3.columns {
   width: 25%; }
 
-.four.columns {
+.col-4.columns {
   width: 33.333333333%; }
 
-.five.columns {
+.col-5.columns {
   width: 41.666666667%; }
 
-.six.columns {
+.col-6.columns {
   width: 50%; }
 
-.seven.columns {
+.col-7.columns {
   width: 58.333333333%; }
 
-.eight.columns {
+.col-8.columns {
   width: 66.666666667%; }
 
-.nine.columns {
+.col-9.columns {
   width: 75%; }
 
-.ten.columns {
-  width: 83%; }
+.col-10.columns {
+  width: 83.333333333%; }
 
-.eleven.columns {
-  width: 91%; }
+.col-11.columns {
+  width: 91.666666667%; }
 
-.twelve.columns {
+.col-12.columns {
   width: 100%; }
 
 .one-third.column {

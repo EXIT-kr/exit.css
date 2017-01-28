@@ -28,6 +28,7 @@
 
 $main-shadow: 0 1px 2px rgba(0,0,0,.2);
 $font-main: 'Open Sans', sans-serif;
+$border-main: 1px solid #E1E1E1;
 
 body {
     font-family: $font-main;
@@ -76,59 +77,31 @@ blockquote {
     margin-right: 0;
 }
 
+.row {
+  width: 100%;
+  display: table;
+  content: "";
+}
 .column,
 .columns {
     display: inline-block;
+    vertical-align: top;
+    float: left;
 }
 
-.one.column,
-.one.columns {
-    width: 8%;
-}
-
-.two.columns {
-    width: 16%;
-}
-
-.three.columns {
-    width: 25%;
-}
-
-.four.columns {
-    width: 33.333333333%;
-}
-
-.five.columns {
-    width: 41.666666667%;
-}
-
-.six.columns {
-    width: 50%;
-}
-
-.seven.columns {
-    width: 58.333333333%;
-}
-
-.eight.columns {
-    width: 66.666666667%;
-}
-
-.nine.columns {
-    width: 75%;
-}
-
-.ten.columns {
-    width: 83%;
-}
-
-.eleven.columns {
-    width: 91%;
-}
-
-.twelve.columns {
-    width: 100%;
-}
+.col-1.column,
+.col-1.columns  { width: 8.3333333338%; }
+.col-2.columns  { width: 16.666666667%; }
+.col-3.columns  { width: 25%; }
+.col-4.columns  { width: 33.333333333%; }
+.col-5.columns  { width: 41.666666667%; }
+.col-6.columns  { width: 50%; }
+.col-7.columns  { width: 58.333333333%; }
+.col-8.columns  { width: 66.666666667%; }
+.col-9.columns  { width: 75%; }
+.col-10.columns { width: 83.333333333%; }
+.col-11.columns { width: 91.666666667%; }
+.col-12.columns { width: 100%; }
 
 .one-third.column {
     width: 30.6666666667%;
@@ -145,7 +118,7 @@ blockquote {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .box {
-    border: 1px solid #E1E1E1;
+    border: $border-main;
     border-radius: 4px;
     background: $color-main-light;
     // font-size: 1.2rem;

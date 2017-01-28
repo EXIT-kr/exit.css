@@ -40,6 +40,8 @@ body {
     padding: 0.5rem; }
 
 .grid-system .columns {
+  border: 1px solid #E1E1E1;
+  box-sizing: border-box;
   margin-bottom: 5px;
   border-radius: 4px;
   text-align: center;
