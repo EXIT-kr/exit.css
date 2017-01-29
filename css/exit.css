@@ -162,7 +162,7 @@ span.box {
   .box-divided .box-top {
     background: #314570;
     color: white;
-    padding: 0.5rem 1.5rem;
+    padding: 0.1rem 1.5rem;
     border-radius: 0.25rem 0.25rem 0 0; }
     .box-divided .box-top > h1, .box-divided .box-top h2, .box-divided .box-top h3, .box-divided .box-top h4, .box-divided .box-top h5, .box-divided .box-top h6 {
       color: white; }

@@ -6,9 +6,10 @@
 * http://www.opensource.org/licenses/mit-license.php
 * 2017.01
 */
-/* fonts.google.com Raleway font*/
+
 @import url( 'https://fonts.googleapis.com/css?family=Open+Sans:400,600');
 @import 'color';
+
 /* Table of contents
 ––––––––––––––––––––––––––––––––––––––––––––––––––
 - Grid
@@ -164,7 +165,7 @@ span.box {
     .box-top {
         background: $color-main;
         color: white;
-        padding: 0.5rem 1.5rem;
+        padding: 0.1rem 1.5rem;
         border-radius: 0.25rem 0.25rem 0 0;
 
         > h1, h2, h3, h4, h5, h6{
